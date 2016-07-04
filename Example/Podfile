@@ -1,5 +1,6 @@
 use_frameworks!
 
 target 'cp_test_podsHello_Example' do
-  pod 'cp_test_podsHello', :path => '../'
+#   pod 'cp_test_podsHello', :path => '../'
+	pod 'cp_test_podsHello', :git => 'https://github.com/KennethLK/cp_test_podsHello'
 end
