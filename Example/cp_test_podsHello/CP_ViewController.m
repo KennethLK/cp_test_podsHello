@@ -7,6 +7,7 @@
 //
 
 #import "CP_ViewController.h"
+#import "CP_TestPods.h"
 
 @interface CP_ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [CP_TestPods ShowLog: @""];
 }
 
 - (void)didReceiveMemoryWarning

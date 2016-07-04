@@ -2,13 +2,4 @@ use_frameworks!
 
 target 'cp_test_podsHello_Example' do
   pod 'cp_test_podsHello', :path => '../'
-
-  target 'cp_test_podsHello_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-  end
 end

@@ -1,0 +1,6 @@
+framework module cp_test_podsHello {
+  umbrella header "cp_test_podsHello-umbrella.h"
+
+  export *
+  module * { export * }
+}
