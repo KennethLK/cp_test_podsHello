@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "cp_test_podsHello"
   s.version      = "0.0.1"
-  s.summary      = "A short description of cp_test_podsHello."
+  s.summary      = "cp_test_podsHello."
 
   s.description  = <<-DESC
-                   A longer description of cp_test_podsHello in Markdown format.
+                   just a test for pods.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/cp_test_podsHello"
+#  s.homepage     = "http://EXAMPLE/cp_test_podsHello"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "GPL"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/cp_test_podsHello.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:KennethLK/cp_test_podsHello.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
