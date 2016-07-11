@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "cp_test_podsHello"
   s.version      = "0.0.2"
-  s.summary      = "cp_test_podsHello."
+  s.summary      = "cp_test_podsHello"
 
   s.description  = <<-DESC
-                   just a test for pods.
+                   A test for test a pods.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/KennethLK/cp_test_podsHello/blob/master/README.md"
+  s.homepage     = "https://github.com/KennethLK/cp_test_podsHello"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "GPL"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+#  s.license      = "MIT"
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "李靖" => "lijing@camera360.com" }
-  # Or just: s.author    = "李靖"
-  # s.authors            = { "李靖" => "lijing@camera360.com" }
-  # s.social_media_url   = "http://twitter.com/李靖"
+  s.author             = { "Pinguo_LiJing" => "email@address.com" }
+  # Or just: s.author    = "Pinguo_LiJing"
+  # s.authors            = { "Pinguo_LiJing" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/Pinguo_LiJing"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "cp_test_podsHello/Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
